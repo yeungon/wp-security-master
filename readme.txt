@@ -47,4 +47,5 @@ Vuong Nguyen at https://tudien.net
 
 == Upgrade Notice ==
 
+Link https://wordpress.org/plugins/wp-security-master/
 
