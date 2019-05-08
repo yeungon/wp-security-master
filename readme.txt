@@ -4,7 +4,7 @@ Tags: security, lock dashboard, secure admin, password, disable wp-login.php
 Requires at least: 4.6
 Tested up to: 5.1
 Requires PHP: 5.5 (to use password_hash() function @see https://php.net/manual/de/function.password-hash.php)
-Stable tag: 1.0, release April 2019
+Stable tag: 1.0.2, release May 2019
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -42,8 +42,17 @@ Vuong Nguyen at https://tudien.net
 3. Click on the  WP Security Master link from the main menu
 
 == Changelog ==
+
+= 1.0.2 =
+*Feature added: Hiding the countdown timer till the configuration is set
+*Fixed: Preventing the error triggered when activating the plugin
+
+= 1.0.1 =
+*Add the clock on the top of the admin menubar.
+*Now, admin can lock it immediately or update/extend/renew the timespan on the top of the admin menubar.
+
 = 1.0 =
-*Release the first stable version on April 2019, tested on WordPress 5.5
+*Release the first stable version on April 2019, tested on WordPress 5.1
 
 == Upgrade Notice ==
 

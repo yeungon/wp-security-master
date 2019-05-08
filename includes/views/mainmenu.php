@@ -9,7 +9,7 @@
 }
 </style>
 
-    <div class="settingleftcollumn">
+    <div class="settingleftcollumn">           
     <h2><span class="dashicons dashicons-admin-generic"></span> Setting WP Security Master</h2>
       <form method="post" action="">
           <!-- Guardian with nonce -->
@@ -51,28 +51,10 @@
           </table>
         <br>
         <input type="submit" name="submit_savechange" id="submit" class="button button-primary" value="🔐 Save change"  />
-        <input type="submit" name="submit_cancel" id="submit" class="button button-primary" value="Cancel"  />
+        <input type="submit" name="submit_cancel" id="submit_cancel" class="button button-primary" value="Cancel"  />
         <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QU42NUQQ4YADG&source=url" target="_blank">
         <input type = "button" class="button button-primary" value= "❤️ Donate"/>  
         </a>        
       </form>
     </div>
 
-
-<script>
-var seconds = <?php echo $getseconds; ?>;
-var el = document.getElementById('time');
-
-function incrementSeconds() {
-    seconds -= 1;
-    if (seconds >= 0) {
-      el.innerText = seconds + " seconds left!";  
-    }else{
-      el.innerText = " It is locked now!";  
-    }
-    
-}
-
-setInterval(incrementSeconds, 1000);
-
-</script>
